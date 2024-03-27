@@ -4,12 +4,10 @@ const styles = StyleSheet.create({
   // Style de base pour le corps de la page
   body: {
     flex: 1,
-    backgroundColor: '#f5f5f5',
   },
   
   // En-tête simple
   header: {
-    backgroundColor: '#333',
     color: '#fff',
     padding: 16,
   },
@@ -24,7 +22,6 @@ const styles = StyleSheet.create({
 
   // Bouton simple
   button: {
-    backgroundColor: '#007bff',
     color: '#fff',
     paddingVertical: 8,
     paddingHorizontal: 16,
@@ -33,7 +30,6 @@ const styles = StyleSheet.create({
 
   // Bouton de survol
   buttonHover: {
-    backgroundColor: '#0056b3',
   },
 
   // Input simple
@@ -48,7 +44,6 @@ const styles = StyleSheet.create({
 
   // Carte simple
   card: {
-    backgroundColor: '#fff',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,

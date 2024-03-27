@@ -9,7 +9,7 @@ export function ClickOnMe() {
 
  export function ClickIfYouCan({ title, buttonTitle}  : {title : string, buttonTitle: any}) {
     return(
-        <View>{title}{buttonTitle? <Button title={buttonTitle}/>: null}</View>
+        <View><Text>{title}</Text>{buttonTitle? <Button title={buttonTitle}/>: null}</View>
     )   
  }
 

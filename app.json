@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "reactExo",
+    "owner": "alexischa",
     "slug": "reactExo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ykc.coursreact"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +36,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b28ff1af-022a-425f-b5fd-040fdb6b7422"
+      }
     }
   }
 }

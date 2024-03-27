@@ -10,10 +10,13 @@ import Colors from '@/constants/Colors';
 import { List } from '../LiSection';
 import { Card, ClickIfYouCan, ClickOnMe } from '../ButtonConsole';
 import { MapAffiche } from '../MapLi';
+import { ThemeButtons } from '../ButonSwitchColor';
+
 
 export default function EditScreenInfo({ path }: { path: string }) {
   return (
     <View>
+      <ThemeButtons/>
       <View style={styles.getStartedContainer}>
         <Text
           style={styles.getStartedText}

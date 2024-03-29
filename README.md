@@ -14,10 +14,10 @@ Afin de faire fonctionner le projet sur votre ordinnateur :
         npm start
 
 # Navigation dans le site
-  1. il y a 3 boutons Light,Dark, Blue sont les mode de visualisation du site
-  2. un bouton de test qui permet de mettre un hello dans la console
-  3. un bouton hi qui ne sert rien
-  4. un bouton qui ne saffiche pas car la condition n'est pas respecté
-  5. et une todo list avec possibilité de suprimmer se qui a etait ajouté
-  6. il y a une navigation Tab one, tab two et compteur.
-  7. dans longlet compteur on a le bouton permetant de changer de page et d'acceder a la page compteur.
+   1. Il y a 3 boutons : Light, Dark, et Blue qui sont les modes de visualisation du site.
+   2. Un bouton de test qui permet d'afficher "Hello" dans la console.
+   3. Un bouton "hi" qui ne sert à rien.
+   4. Un bouton qui ne s'affiche pas car la condition n'est pas respectée.
+   5. Une liste de tâches (todo list) avec possibilité de supprimer ce qui a été ajouté.
+   6. Il y a une navigation avec des onglets "Tab one", "Tab two" et "Compteur".
+   7. Dans l'onglet "Compteur", il y a un bouton permettant de changer de page et d'accéder à la page compteur.

@@ -45,18 +45,21 @@ export function ThemeButtons() {
         console.log('Light theme selected');
         setTheme('light');
         storeThemeName('light'); // Enregistrer le nouveau thème dans AsyncStorage
+        window.location.reload();
     };
 
     const handleDarkPress = () => {
         console.log('Dark theme selected');
         setTheme('dark');
         storeThemeName('dark'); // Enregistrer le nouveau thème dans AsyncStorage
+        window.location.reload();
     };
 
     const handleBluePress = () => {
         console.log('Blue theme selected');
         setTheme('blue');
         storeThemeName('blue'); // Enregistrer le nouveau thème dans AsyncStorage
+        window.location.reload();
     };
 
     return (
